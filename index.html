@@ -9,12 +9,17 @@
   <script type="text/javascript" src="./js/main.js" defer></script>
   <link rel="stylesheet" href="./css/main.css">
 </head>
-<body onload="loadSite()">
+<body class="wrapper" onload="loadSite()">
+  <div class="wrapper">
+    <div class="header wrapper">
+      <h1>:)</h1>
+    </div>
     <div class="container">
-        <h2>Weather</h2>
+        <p>Cuaca Hari ini</p>
         <h1 id="temperature"></h1>
-        <p id="description"></p>
-        <h2 id="location"></h2>
+        <p id="location"></p>
+        <h2 id="description"></h2>
+        
         <!-- tables -->
         <div class="table-container">
           <table class="table">
@@ -45,5 +50,6 @@
           </table>
         </div>
       </div>
+  </div>
 </body>
 </html>
